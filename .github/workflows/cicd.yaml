@@ -30,4 +30,4 @@ jobs:
         - name: Delete old container
           run: docker rm -f go-app-container
         - name: Run Docker container
-          run: docker run -d -p 4040:4040 iqbal508/go-apps:latest --name go-app-container
+          run: docker run -d -p 4040:4040 --name go-app-container iqbal508/go-apps:latest 
